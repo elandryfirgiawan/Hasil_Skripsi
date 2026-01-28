@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Data Tanah</title>
+</head>
+<body>
+
+<h2>Form Input Data Tanah</h2>
+
+<form method="post">
+  {% csrf_token %}
+  <input type="number" step="0.01" name="pH" placeholder="pH" required><br><br>
+  <input type="number" step="0.01" name="KTK" placeholder="KTK" required><br><br>
+  <input type="number" step="0.01" name="C_Organik" placeholder="C-Organik" required><br><br>
+  <input type="number" step="0.01" name="N_Total" placeholder="N-Total" required><br><br>
+  <input type="number" step="0.01" name="P_Total" placeholder="P-Total" required><br><br>
+  <input type="number" step="0.01" name="K_Total" placeholder="K-Total" required><br><br>
+
+  <button type="submit">Proses</button>
+</form>
+
+</body>
+</html>
