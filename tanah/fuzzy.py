@@ -106,7 +106,7 @@ def mu_k_tinggi(x):
 
 
 # ============================================================
-# SISTEM FUZZY SUGENO (SAMA COLAB)
+# SISTEM FUZZY SUGENO 
 # ============================================================
 
 def kualitas_tanah_fuzzy(pH, KTK, Corg, N, P, K):
